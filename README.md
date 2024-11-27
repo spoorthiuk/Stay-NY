@@ -2,6 +2,9 @@
 
 Stay-NY is a accomodation booking platform designed for an intuitive and efficient user experience. The app provides dynamic search capabilities, comprehensive filters, and interactive map features to help users easily find and book accommodations in New York. It incorporates modern web technologies and a robust backend to ensure reliable performance and scalability.
 
+  ![Stay-NY Demo](demo.gif)
+
+
 ## Features
 
 * Search Functionality: Perform keyword searches to find hotels based on names, hosts, neighborhoods, and room types.
@@ -16,8 +19,6 @@ Stay-NY is a accomodation booking platform designed for an intuitive and efficie
 * Node.js: Install the latest version from [Node.js official website](https://nodejs.org).  
 * Python 3.x: Required to run the Flask server.
 * Elasticsearch: Ensure you have an instance of Elasticsearch running. You can use a local instance or a cloud-hosted version.
-
-  ![Stay-NY Demo](demo.gif)
 
 ### Installation  
 
