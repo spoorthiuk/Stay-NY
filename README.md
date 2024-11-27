@@ -32,7 +32,8 @@ Stay-NY is a accomodation booking platform designed for an intuitive and efficie
      ```bash
      cd stay-NY
      npm install
-    Start development server
+    
+  Start development server
      ```bash
      npm start
 
