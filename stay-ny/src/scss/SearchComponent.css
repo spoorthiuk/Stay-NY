@@ -1,0 +1,248 @@
+/* Overall search component styles */
+.search-component {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+  
+  /* Header with logo and profile */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    height: 100px;
+    width: auto;
+  }
+  
+  .profile button {
+    padding: 10px 20px;
+    background-color: #007a87;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .profile button:hover {
+    background-color: #005f65;
+  }
+  
+  /* Centered search bar */
+  .search-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    padding: 15px 20px;
+    width: 50%;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  .search-button {
+    padding: 10px 10px;
+    background-color: #5670cb;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .search-line {
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 20px 0;
+  }
+  
+  .search-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+  }
+  
+  .search-button:hover {
+    background-color: #2c418d;
+  }
+  
+  /* Filter styles */
+  .filters {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  /* Button styling */
+  .apply-filter-button {
+    background-color: #5670cb;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 25px;
+  }
+  
+  .filter {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    width: 200px; /* You can adjust this width */
+  }
+  
+  .filter label {
+    margin-right: 10px;
+  }
+  
+  .filter input, .filter select {
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+  }
+  
+  .filter label {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #776f6f;
+  }
+  
+  .apply-filter-button:hover {
+    background-color: #2c418d;
+  }
+  
+  .price-slider {
+    width: 100%;
+    margin: 0.5% 0;
+    background-color: #2c418d;
+  }
+  
+  /* Map Section */
+  .map-section {
+    margin-top: 40px;
+  }
+  
+  /* Add flex for map and cards container */
+  .search-results {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .map-container {
+    width: 48%; /* Adjust as needed */
+  }
+  
+  .cards-container {
+    display: grid;
+    width: 48%; 
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));  /* Responsive grid layout */
+    gap: 10px;
+    max-height: 500px;   /* Set a fixed max-height */
+    overflow-y: auto;    /* Enable vertical scrolling */
+    padding-right: 10px; /* Prevent the scrollbar from overlapping cards */
+  }
+  /* Card styles */
+  .card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-subtitle {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .card-price {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-reviews {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .card-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  .card-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .confirm-button,
+  .cancel-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .cancel-button {
+    background-color: red;
+    color: white;
+  }
+  
+  .confirm-button {
+    background-color: green;
+    color: white;
+  }
