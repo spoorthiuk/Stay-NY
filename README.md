@@ -10,6 +10,8 @@ Stay-NY is a accomodation booking platform designed for an intuitive and efficie
 <div align="center">
   <img src="./assets/d3.gif" alt="Description of GIF" width="500" height="300" />
 </div>
+
+
 ## Features
 
 * Search Functionality: Perform keyword searches to find hotels based on names, hosts, neighborhoods, and room types.
