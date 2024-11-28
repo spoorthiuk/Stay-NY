@@ -1,12 +1,15 @@
 # Stay-NY
 
 Stay-NY is a accomodation booking platform designed for an intuitive and efficient user experience. The app provides dynamic search capabilities, comprehensive filters, and interactive map features to help users easily find and book accommodations in New York. It incorporates modern web technologies and a robust backend to ensure reliable performance and scalability.
-
-  ![Stay-NY Demo1](./assets/d1.gif)
-  ![Stay-NY Demo2](./assets/d2.gif)
-  ![Stay-NY Demo3](./assets/d3.gif)
-
-
+ <div align="center">
+   <img src="./assets/d1.gif" alt="Description of GIF" width="500" height="300" />
+ </div>
+ <div align="center"> 
+   <img src="./assets/d2.gif" alt="Description of GIF" width="500" height="300" />
+ </div>
+<div align="center">
+  <img src="./assets/d3.gif" alt="Description of GIF" width="500" height="300" />
+</div>
 ## Features
 
 * Search Functionality: Perform keyword searches to find hotels based on names, hosts, neighborhoods, and room types.
